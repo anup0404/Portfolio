@@ -1,0 +1,8 @@
+.images_of_project>img{
+    width: 100%;
+    height: 200px;}
+.project_container{
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 5%;
+}

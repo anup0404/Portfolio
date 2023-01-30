@@ -1,0 +1,40 @@
+.skill_container{
+    margin-left: 15%;
+    width: 70%;
+    height: 100vh;
+    
+
+}
+.skill_detail{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.skill_container>h1>span{
+    font-size: 80px;
+    border-bottom: 3px solid rgb(73, 206, 73);
+}
+.skill_detail{
+    font-size: 30px;
+    margin-top:5%
+}
+.skill_detail>h2{
+    margin: 5%;
+}
+hr{
+    margin-top: 100px;
+}
+
+@media only screen  and (max-width:585px){
+    .skill_detail{ 
+        display: flex;
+    flex-direction: column;
+    font-size:15px ;
+    
+    }
+    .skill_container>h1>span{
+        font-size: 60px;}
+        hr{
+            margin-top: 0px;;
+        }
+}
